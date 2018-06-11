@@ -1,0 +1,11 @@
+.done{
+  text-decoration: line-through;
+  text-transform: uppercase;
+  color: green;
+  opacity: 0.5;
+}
+
+.selected{
+  color: green;
+  text-transform: uppercase;
+}

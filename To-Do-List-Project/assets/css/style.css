@@ -1,0 +1,90 @@
+body {
+  font-family: Roboto;
+  background: #FFF;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #42C5F4, #FFF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #42C5F4, #FFF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#container {
+  width: 360px;
+  margin: 100px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #F7F7F7;
+}
+
+h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px 10px;
+  background-color: #2980B9;
+}
+
+.fa-plus{
+  float: right;
+}
+
+input {
+  width: 100%;
+  color: #2980B9;
+  font-size: 18px;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0.0);
+  background-color: #F7F7F7;
+}
+
+/* THE INPUT WHEN YOU ARE ABOUT TOWRITE */
+
+input:focus {
+  outline: none;
+  border: 3px solid #2980B9;
+  background-color: #FFF;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+span{
+  color: #FFF;
+  width: 0px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+  opacity: 0;
+  transition: 0.2s linear;
+  background-color: #E74C3C;
+}
+
+li {
+  color: #666;
+  height: 40px;
+  line-height: 40px;
+  background-color: #FFF;
+}
+
+/* WHEN WE HOVER OVER AN LI WE WANT TO SELECT THE SPAN THAT IS INSIDE OF THE LO */
+li:hover span{
+    width: 40px;
+    opacity: 1;
+}
+
+/* EVERY TWO LI IN THE UL */
+
+li:nth-child(2n) {
+  background-color: #F7F7F7;
+}
+
+.completed {
+  color: gra;
+  text-decoration: line-through;
+}

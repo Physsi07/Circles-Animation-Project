@@ -1,0 +1,23 @@
+
+body {
+	background: pink;
+}
+
+h1 {
+	text-align: center;
+	color: #000000;
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+	background-color: rgba(250, 0, 250, 0.5);
+}
+
+h4 {
+	text-align: center;
+	color: #0000ff ;
+	background: rgb(255, 100, 50)
+}
+
+li {
+	color: #FF0005;
+}
